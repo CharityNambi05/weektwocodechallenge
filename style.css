@@ -1,0 +1,30 @@
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #shopping-list {
+ list-style: disc;
+    padding: 2;
+  }
+  
+  #shopping-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+  }
+  
+  #shopping-list li.purchased {
+    text-decoration: dotted;
+    color: rgb(210, 255, 196);
+  }
+  
+  #shopping-list li.editing {
+    background-color: rgb(255, 0, 221);
+  }
+  
+  #shopping-list li input {
+    width: 110%; 
+    border: 0cqi;
+    font-size: medium;
+    padding: 0ch;
+  }
