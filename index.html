@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>shopping List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body> 
-    <html>
-        <header>
-        <section id= "shopping-list">
-    <ul>
-        <li>Bread</li>
-        <li>Milk</li>
-        <li>potatoes</li>
-        <li>Diapers</li>
-        <li>Toiletpaper</li>
-        <li>Flour</li>
-        <li>Papertowel</li>
-    </ul>
-    <div class="ButtonConatiner">
-       <Button id="markPurchased">markPurchased</Button>
-       <button id="clearlist">clear List</button>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="button-container">
+      <input type="text" id="new-item" />
+      <button id="add-item">Add Item</button>
+      <button id="clear-list">Clear List</button>
     </div>
-</body>
+    <ul id="shopping-list"></ul>
+    <script src="index.js"></script>
+  </body>
 </html>
